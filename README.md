@@ -4,12 +4,20 @@ Compiling the code:
 
 	make
 
+Before running the server:
+
+	sudo docker build -t <name> .
+
 Running the server:
 
-	java tcp.singlethreaded.TimeServer 
+	sudo docker run <name>
 
 Running the client (on same or another machine):
 
-	java tcp.singlethreaded.TimeClient <hostname> <port>
+	java TimeClient <port> <serverhost>
 
-Use localhost for hostname and 5005 for port.
+	or
+
+	java TimeClient <port> <serverhost> <serverhost2> ...
+
+Use 5005 for port.
