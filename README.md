@@ -1,8 +1,7 @@
 
 # Homework 3 
 
-* Authors: Devan Craig
-* Homework 3
+* Author: Devan Craig
 * Class: CS455 Section 001
 * Semester: Spring 2020
 
@@ -24,9 +23,9 @@
 
 	java TimeClient <port> <serverhost>
 
-	or
+					or
 
 	java TimeClient <port> <serverhost> <serverhost2> ...
 
-## Use 5005 for port.
+Use 5005 for port.
 
