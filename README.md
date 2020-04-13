@@ -1,19 +1,26 @@
 
+# Homework 3 
 
+* Authors: Devan Craig
+* Homework 3
+* Class: CS455 Section 001
+* Semester: Spring 2020
 
-Before running the server:
+# Compiling and Using:
+
+## Before running the server:
 
 	sudo docker build -t <name> .
 
-Running the server:
+## Running the server:
 
 	sudo docker run <name>
 
-Compiling the code for the client:
+## Compiling the code for the client:
 
 	make
 
-Running the client (on same or another machine):
+## Running the client (on same or another machine):
 
 	java TimeClient <port> <serverhost>
 
@@ -21,4 +28,5 @@ Running the client (on same or another machine):
 
 	java TimeClient <port> <serverhost> <serverhost2> ...
 
-Use 5005 for port.
+## Use 5005 for port.
+
