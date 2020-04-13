@@ -1,8 +1,5 @@
 
 
-Compiling the code:
-
-	make
 
 Before running the server:
 
@@ -11,6 +8,10 @@ Before running the server:
 Running the server:
 
 	sudo docker run <name>
+
+Compiling the code for the client:
+
+	make
 
 Running the client (on same or another machine):
 
